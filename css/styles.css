@@ -166,7 +166,9 @@ a {
 }
 
 .nav-list,
-.contact-list {
+.contact-list,
+.nav-list li,
+.contact-list li {
   display: flex;
   align-items: center;
 }
