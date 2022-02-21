@@ -130,25 +130,25 @@
         </a>
         <nav class="page-nav">
           <ul class="list nav-list">
-            <li>
+            <li class="nav-item">
               <a href="#about" class="nav-link">О нас</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a href="#price" class="nav-link">Услуги и цены</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a href="#team" class="nav-link">Мастера</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a href="#contact" class="nav-link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="list contact-list">
-          <li>
+          <li class="contact-item">
             <a href="tel:+380441111111" class="contact-link">+38 044 111 11 11</a>
           </li>
-          <li>
+          <li class="contact-item">
             <button type="button" class="button button-dark">Онлайн-запись</button>
           </li>
         </ul>
@@ -271,21 +271,39 @@
         <div class="container">
           <p class="section-subtitle line">для настоящих ценителей атмосферы</p>
           <h2 class="section-title">Наши мастера</h2>
-          <ul class="list">
-            <li>
-              <img src="./images/master-1.jpg" alt="Барбер Джон" width="370" height="346" />
-              <h3>John Smith</h3>
-              <p>Extreme Barber</p>
+          <ul class="list masters-list">
+            <li class="master-item">
+              <img
+                class="item-img"
+                src="./images/master-1.jpg"
+                alt="Барбер Джон"
+                width="370"
+                height="346"
+              />
+              <h3 class="item-title">John Smith</h3>
+              <p class="item-descr">Extreme Barber</p>
             </li>
-            <li>
-              <img src="./images/master-2.jpg" alt="Барбер Майкл" width="370" height="346" />
-              <h3>Michele Doe</h3>
-              <p>Extreme Barber</p>
+            <li class="master-item">
+              <img
+                class="item-img"
+                src="./images/master-2.jpg"
+                alt="Барбер Майкл"
+                width="370"
+                height="346"
+              />
+              <h3 class="item-title">Michele Doe</h3>
+              <p class="item-descr">Extreme Barber</p>
             </li>
-            <li>
-              <img src="./images/master-3.jpg" alt="Барбер Алан" width="370" height="346" />
-              <h3>Alan Black</h3>
-              <p>Extreme Barber</p>
+            <li class="master-item">
+              <img
+                class="item-img"
+                src="./images/master-3.jpg"
+                alt="Барбер Алан"
+                width="370"
+                height="346"
+              />
+              <h3 class="item-title">Alan Black</h3>
+              <p class="item-descr">Extreme Barber</p>
             </li>
           </ul>
         </div>
@@ -295,7 +313,7 @@
         <div class="container">
           <h2 style="display: none">Фотогалерея</h2>
           <p class="section-subtitle line">На латинском языке “барба” означает “борода”</p>
-          <ul class="list">
+          <ul class="list gallery-list">
             <li>
               <img src="./images/gallery-img-1.jpg" alt="Фото с галереи" width="270" height="360" />
             </li>
@@ -312,33 +330,37 @@
         </div>
       </section>
 
-      <section class="reservation section">
-        <div class="container half">
-          <h2 class="section-title">Онлайн-запись</h2>
-          <button type="button" class="button button-dark">Отправить</button>
-        </div>
-      </section>
+      <div class="two-section">
+        <section class="reservation section">
+          <div class="container half">
+            <h2 class="section-title">Онлайн-запись</h2>
+            <button type="button" class="button button-dark">Отправить</button>
+          </div>
+        </section>
 
-      <section class="info section" id="contact">
-        <div class="container half">
-          <h2 class="section-title">Контакты</h2>
-          <address class="addr">
-            <ul class="list contacts-list">
-              <li>
-                <p class="contact-item">ул. Васильковая, 7А Киев, 08132</p>
-              </li>
-              <li>
-                <a href="tel:+380441111111" class="contact-item">+38 044 111 11 11</a>
-              </li>
-              <li>
-                <a href="mailto:barbershop@email.com" class="contact-item">barbershop@email.com</a>
-              </li>
-            </ul>
-          </address>
-          <p class="section-subtitle line">время работы</p>
-          <p class="schedule">Ежедневно с 9:00 до 22:00</p>
-        </div>
-      </section>
+        <section class="info section" id="contact">
+          <div class="container half">
+            <h2 class="section-title">Контакты</h2>
+            <address class="addr">
+              <ul class="list contacts-list">
+                <li class="contact-item">
+                  <p class="contact-link">ул. Васильковая, 7А</br> Киев, 08132</p>
+                </li>
+                <li class="contact-item">
+                  <a href="tel:+380441111111" class="contact-link">+38 044 111 11 11</a>
+                </li>
+                <li class="contact-item">
+                  <a href="mailto:barbershop@email.com" class="contact-link"
+                    >barbershop@email.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <p class="section-subtitle line">время работы</p>
+            <p class="schedule">Ежедневно с 9:00 до 22:00</p>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="page-footer">
