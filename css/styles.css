@@ -216,6 +216,9 @@ a {
   background-color: var(--secondary-background-color-dark);
   margin-left: 94px;
   padding: 270px 96px 200px 96px;
+
+  background-image: url('../images/slider-img-3.jpg'), url('../images/slider-overlay.png');
+  background-size: cover;
 }
 
 .hero-title {
